@@ -191,41 +191,7 @@ authors = {
     "Schult": ("Dan Schult", "dschult@colgate.edu"),
     "Swart": ("Pieter Swart", "swart@lanl.gov"),
 }
-maintainer = "NetworkX Developers"
-maintainer_email = "networkx-discuss@googlegroups.com"
-url = "https://networkx.org/"
-project_urls = {
-    "Bug Tracker": "https://github.com/networkx/networkx/issues",
-    "Documentation": "https://networkx.org/documentation/stable/",
-    "Source Code": "https://github.com/networkx/networkx",
-}
-platforms = ["Linux", "Mac OSX", "Windows", "Unix"]
-keywords = [
-    "Networks",
-    "Graph Theory",
-    "Mathematics",
-    "network",
-    "graph",
-    "discrete mathematics",
-    "math",
-]
-classifiers = [
-    "Development Status :: 5 - Production/Stable",
-    "Intended Audience :: Developers",
-    "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: BSD License",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.6",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3 :: Only",
-    "Topic :: Software Development :: Libraries :: Python Modules",
-    "Topic :: Scientific/Engineering :: Bio-Informatics",
-    "Topic :: Scientific/Engineering :: Information Analysis",
-    "Topic :: Scientific/Engineering :: Mathematics",
-    "Topic :: Scientific/Engineering :: Physics",
-]
+
 
 date, date_info, version, version_info, vcs_info = get_info()
 

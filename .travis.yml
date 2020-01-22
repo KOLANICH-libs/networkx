@@ -56,7 +56,7 @@ before_install:
 
 install:
   # install required packages
-  - pip install --upgrade pip wheel setuptools
+  - pip install --upgrade pip wheel setuptools setuptools_scm
   - pip install --retries 3 ${PIP_FLAGS} -r requirements.txt
   - if [[ "${EXTRA_DEPS}" == 1 ]]; then
       pip install --retries 3 ${PIP_FLAGS} -r requirements/extra.txt;
